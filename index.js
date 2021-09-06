@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-//  import List from './listKey';
 import Lifecycle from './lifecycle1'
 
 class Main extends React.Component
