@@ -36,10 +36,13 @@ class Lifecycle extends React.Component
             <>
             <h1>Child component</h1>
             <h2>Counter :{this.state.counter}</h2>
+
             {/* passing arguments via arrow function */}
             <button onClick={()=>this.handleClick("+")}>Increment</button>
+
             {/* passing arguments via bind() */}
             <button onClick={this.handleClick.bind(this,"-")}>Decrement</button>
+
             <button onClick={()=>this.handleClick("")}>Reset</button>
             <button onClick={()=>this.forceUpdate()}>forceUpdate()</button>
             </>
